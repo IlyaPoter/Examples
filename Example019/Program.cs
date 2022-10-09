@@ -9,7 +9,7 @@ Console.WriteLine("Введите координату Y второго числ
 int twoY = int.Parse(Console.ReadLine());
 int differentX = oneX - twoX;
 int differentY = oneY - twoY;
-double result = Math.Sqrt((differentX*differentX+differentY*differentY));
+double result = Math.Sqrt((differentX * differentX + differentY * differentY));
 Console.WriteLine(result);
 
 
